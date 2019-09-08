@@ -1,0 +1,35 @@
+{
+    "name": "laraluke/laravel-mapbox",
+    "description": "Integrate Mapbox into your Laravel application.",
+    "keywords": [
+        "laravel",
+        "mapbox",
+        "maps",
+        "geocoding"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laraluke",
+            "homepage": "https://github.com/laraluke"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraLuke\\Mapbox\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraLuke\\Mapbox\\MapboxServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
